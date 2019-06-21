@@ -10,7 +10,11 @@
         <module name="hibernate" />
         <module name="mybatis" />
         <module name="spring" />
+        <module name="web" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="webtest" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
